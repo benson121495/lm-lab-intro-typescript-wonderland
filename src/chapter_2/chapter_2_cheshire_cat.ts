@@ -21,10 +21,10 @@ export function meetTheCheshireCat(): void {
 
 	const theCat = new CheshireCat();
 
-	// 👉 FIXME ❌
-	theCat.expression = '😁 Grin 😁';
-	// 👉 END FIXME ❌
 
+	theCat.expression = '😁 Grin 😁';
+
+	
 	print(
 		`You can see ${theCat.name}. A wide ${theCat.expression} is hovering in the air.`
 	);
